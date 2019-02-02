@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1301162768</title>
+    </head>
+	<body>
+		<h1>Jurnal Modul 1</h1>
+		<form action="index2.html" method="POST">
+			<table border="0" width="120">
+				<tr>
+					<td>Nama Lengkap</td>
+					<td>:</td>
+					<td width="900"><input type="text" name="namalengkap_input" class="text-field" id="name_id" placeholder="Input Namalengkap" value="Dhina Nur Fitriana"readonly</td>
+				</tr>
+				<tr>
+					<td>Nama Panggilan</td>
+					<td>:</td>
+					<td width="900"><input type="text" name="namapanggilan_input" class="text-field" id="namepanggilan_id" placeholder="Input Namapanggilan" value="Dhina "disabled/></td>
+				</tr>
+				<tr>
+					<td>Username</td>
+					<td>:</td>
+					<td width="900"><input type="text" name="unama_input" class="text-field" id="uname_id" placeholder="Input Username" value="Username"required/></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>:</td>
+					<td width="900"><input type="text" name="email_input" class="text-field" id="email_id" placeholder="Input Email"required/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>:</td>
+					<td width="900"><input type="text" name="password_input" class="text-field" id="password_id" placeholder="Input Password"required/></td>
+				</tr>
+				<tr>
+					<td>Jenis kelamin</td>
+					<td>:</td>
+					<td>
+						<input type="radio" name="jk_input" class="radioB" id="radioB" value="Pria">Pria</input>
+						<input type="radio" name="jk_input" class="radioB" id="radioB" value="Wanita">Wanita</input>
+					</td>
+				</tr>
+				<tr>
+					<td>Hobi</td>
+					<td>:</td>
+					<td>
+						<input type="checkbox" name="hobi_input" class="checkBox" id="CheckB_id" value="Makan"required>Makan</input><br/>
+						<input type="checkbox" name="hobi_input" class="checkBox" id="CheckB_id" value="Belajar"required>Belajar</input><br/>
+						<input type="checkbox" name="hobi_input" class="checkBox" id="CheckB_id" value="Tidur"required>Tidur</input><br/>
+						<input type="checkbox" name="hobi_input" class="checkBox" id="CheckB_id" value="Coding"required>Coding</input>
+					</td>
+				</tr>
+				<tr>
+					<td>Pendidikan terakhir</td>
+					<td>:</td>
+					<td>
+						<select name="jp_input" class="dropdown" id="jp_id"required>
+								<option value=""selected>-----pilih-----</option>
+								<option value="D3">tamat D3</option>
+								<option value="S1">tamat S1</option>
+								<option value="S2">tamat S2</option>
+								<option value="S3">tamat S3</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Jurusan</td>
+					<td>:</td>
+					<td>
+						<select name="jurusan_input" class="" multiple id="jurusan_id"required>
+							<option value="D3">Informatika</option>
+							<option value="S1">MBTI</option>
+							<option value="S2">Sistem Komputer</option>
+							<option value="S3">Sistem Informasi</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Upload Foto</td>
+					<td>:</td>
+					<td>
+						<input type="file" name="btnfile" class="btnFile" id="id_btnfile"></input>No File Choosen
+					</td>
+				</tr>
+				<tr>
+					<td>Alamat</td>
+					<td>:</td>
+					<td>
+						<textarea rows ="5" cols="40%"required>Alamat</textarea>
+						<button type="Submit" name="btnsubmit" class="btnSubmit" id="id_btnSubmit"value="Submit">Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
